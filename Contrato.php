@@ -10,13 +10,13 @@
         private $objCliente;
 
         //defino el metodo __construct 
-        public function __construct ($fechaInicio, $fechaVencimiento, $objPlan, $estadoPlan, $costo, $renovacion, $objCliente) {
+        public function __construct ($fechaInicio, $fechaVencimiento, $objCliente, $objPlan ) {
             $this -> fechaInicio = $fechaInicio;
             $this -> fechaVencimiento = $fechaVencimiento;
             $this -> objPlan = $objPlan;
-            $this -> estadoPlan = $estadoPlan;
-            $this -> costo = $costo;
-            $this -> renovacion = $renovacion;
+            $this -> estadoPlan = "al dia";
+            $this -> costo = 0;
+            $this -> renovacion = true;
             $this -> objCliente = $objCliente;
         }
 

@@ -4,9 +4,9 @@
         private $porcentajeDesc;
 
         //Defino el metodo __construct
-        public function __construct ($fechaInicio, $fechaVencimiento, $plan, $estadoPlan, $costo, $renovacion, $objCliente, $porcentajeDesc) {
-            parent::__construct ($porcentajeDesc);
-            $this -> porcentajeDesc = $porcentajeDesc;
+        public function __construct ($fechaInicio, $fechaVencimiento,$objCliente, $plan) {
+            parent::__construct ($fechaInicio, $fechaVencimiento,$objCliente, $plan);
+            $this -> porcentajeDesc = 10;
         }
 
         //Defino el get y el set

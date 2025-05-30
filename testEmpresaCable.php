@@ -9,9 +9,9 @@
 
     $empresa = new EmpresaCable();
 
-    $canal1 = new Canal("infantil", 1000, false);
-    $canal2 = new Canal("peliculas", 12000, false);
-    $canal3 = new Canal("musical", 13000, true);
+    $canal1 = new Canales("infantil", 1000, false);
+    $canal2 = new Canales("peliculas", 12000, false);
+    $canal3 = new Canales("musical", 13000, true);
 
     $plan1 = new Planes(131, [$canal1, $canal2], 25000, true);
     $plan2 = new Planes(111, [$canal1, $canal2, $canal3], 60000, false);

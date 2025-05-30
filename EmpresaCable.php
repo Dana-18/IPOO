@@ -7,11 +7,11 @@
         private $objContratos;
 
         //Defino el metodo __construct
-        public function __construct ($objPlan, $objCanal, $objClientes, $objContratos) {
-            $this -> objPlan = $objPlan;
-            $this -> objCanal = $objCanal;
-            $this -> objClientes = $objClientes;
-            $this -> objContratos = $objContratos;
+        public function __construct () {
+            $this -> objPlan = [];
+            $this -> objCanal = [];
+            $this -> objClientes = [];
+            $this -> objContratos = [];
         }
 
         //Defino los metodos get y set
