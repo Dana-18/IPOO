@@ -1,6 +1,6 @@
 <?php
 
-    include_once "Canal.php";
+    include_once "Canales.php";
     include_once "Cliente.php";
     include_once "Contrato.php";
     include_once "ContratoWeb.php";
